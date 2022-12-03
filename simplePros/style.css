@@ -1,0 +1,56 @@
+* {
+    font-family: Helvetica;
+}
+
+#box {
+
+    background-color: cyan;
+    background-image: url(./pattern.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+#boxText {
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    display: block;
+
+}
+
+.titles {
+    width: 100px;
+    font-weight: bold;
+    font-size: 32px;
+    width: 100%;
+    color: white;
+}
+
+.titleImgs {
+    background-repeat: no-repeat;
+}
+
+#firstTitle {
+    background-color: mediumspringgreen;
+}
+
+#secondTitle {
+    background-color: lightcoral;
+}
+
+#thirdTitle {
+    background-color: skyblue;
+}
+
+.articleTexts {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.highlightedFont {
+    font-weight: bold;
+    color: blue;
+}
