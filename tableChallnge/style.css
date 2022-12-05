@@ -1,3 +1,7 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .tableBorderColor {
     background-color: rgb(153, 50, 204);
 
@@ -5,6 +9,7 @@
 
 .tagBackGroundColor {
     background-color: beige;
+    font-size: 13px;
 }
 
 .headerColor {
@@ -35,8 +40,7 @@ h1 {
 
 table {
     border: 2px solid darkorchid;
-
-
+    width: 650px;
 }
 
 .header {
