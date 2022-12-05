@@ -20,18 +20,28 @@ th {
 }
 
 .centerlizer {
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2 {
     color: rebeccapurple;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
 }
 
 table {
     border: 2px solid darkorchid;
 
+
 }
 
+.header {
+    text-align: center;
+}
 
 td {
     border-top-style: solid;
