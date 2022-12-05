@@ -1,5 +1,6 @@
 .tableBorderColor {
     background-color: rgb(153, 50, 204);
+
 }
 
 .tagBackGroundColor {
@@ -28,8 +29,13 @@ h2 {
 
 table {
     border: 2px solid darkorchid;
+
 }
 
-.a {
-    text-decoration: underline;
+
+td {
+    border-top-style: solid;
+    border-color: darkorchid;
+    border-width: 1px;
+
 }
