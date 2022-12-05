@@ -1,0 +1,35 @@
+.tableBorderColor {
+    background-color: rgb(153, 50, 204);
+}
+
+.tagBackGroundColor {
+    background-color: beige;
+}
+
+.headerColor {
+    color: rgb(102, 51, 153);
+}
+
+body {
+    background-color: rgb(220, 220, 220);
+}
+
+th {
+    background-color: rgb(221, 160, 221);
+}
+
+header {
+    text-align: center;
+}
+
+h2 {
+    color: rebeccapurple;
+}
+
+table {
+    border: 2px solid darkorchid;
+}
+
+.a {
+    text-decoration: underline;
+}
