@@ -19,7 +19,7 @@ th {
     background-color: rgb(221, 160, 221);
 }
 
-header {
+.centerlizer {
     text-align: center;
 }
 
@@ -37,5 +37,4 @@ td {
     border-top-style: solid;
     border-color: darkorchid;
     border-width: 1px;
-
 }
