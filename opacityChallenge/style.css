@@ -1,0 +1,19 @@
+section {
+  font-family: "Helvetica Neue", Helvetica, Sans-serif;
+  background-color: #5B9279;
+  padding: 5em 3em;
+ 	color: #EAE6E5;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color:#12130F;
+}
+
+p {
+  font-size: 25px;
+}
+p .opacity {
+  opacity:0.5;
+}
