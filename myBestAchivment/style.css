@@ -1,0 +1,176 @@
+/*
+main section 
+ --section one: navigation.
+ --section two:main body image.
+  --section three:cards.
+
+
+
+
+*/
+body {
+  font-family: "Helvetica", "Nunito Sans ExtraLight", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+/* section one
+   navigation part
+     contains menu and logo
+*/
+.container {
+  display: flex;
+  flex-flow: row;
+  min-height: 69px;
+  border: 1px solid seashell;
+  margin: 0 10%;
+}
+.left {
+  display: flex;
+  flex: 0.54;
+  justify-content: center;
+  align-items: center;
+}
+.left img {
+  height: 50px;
+  margin-left: 10px;
+}
+.main {
+  width: 60%;
+  display: flex;
+  flex: 3;
+}
+
+.right {
+  justify-content: end;
+  align-items: center;
+  display: flex;
+  flex: 2.2;
+  flex-direction: row;
+  text-decoration: underline;
+}
+.col {
+  margin: 12px;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*section two: body image*/
+.parent {
+  margin: 0 auto;
+  width: 1200px;
+  height: 700px;
+  position: relative;
+}
+.parent img {
+  width: 1200px;
+  height: 700px;
+}
+.child {
+  text-align: center;
+  width: 1200px;
+  height: fit-content;
+  background-color: black;
+  margin: auto auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+h2 {
+  padding: 0;
+  margin: 1%;
+}
+h4 {
+  padding: 0;
+  margin: 1%;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*section three: cards*/
+.parentContainers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.containers {
+  margin-right: 20px;
+  /* Flex properties */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.containers > h4 {
+  margin-top: 10px;
+  margin-bottom: 10px; /* Remove the space between title and img */
+}
+.containers > img {
+  height: 200px;
+  width: 300px;
+}
+.no-margin {
+  margin-bottom: 0px;
+}
+.containers > h4 {
+  margin-top: 0px;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*section four: address*/
+.demo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.minidemo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  margin-right: 40px;
+  color: white;
+  background-color: black;
+}
+.minidemo1 {
+  margin-right: 20px;
+  /* Flex properties */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-image: url("/assets/img-locations-background\ \(1\).jpg");
+  background-size: cover;
+  height: 500px;
+  width: 1200px;
+}
+.marginBottom {
+  margin-bottom: 15px;
+}
+.white {
+  color: white;
+}
+.freeSpace {
+  margin-top: 30px;
+}
+.black {
+  color: black;
+  margin-top: 50px;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*section five: footer*/
+.bigSura {
+  text-align: center;
+  align-items: center;
+}
+.sura {
+  text-align: left;
+  align-items: center;
+  margin-left: 20px;
+}
