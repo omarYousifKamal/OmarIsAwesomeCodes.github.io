@@ -1,0 +1,25 @@
+.block {
+  height: 100px;
+  width: 100px;
+  display: block;
+}
+
+#container{
+  background-color: #F4E8C1;
+ 	position: absolute;
+  width: 100%;
+}
+
+#teal {
+  background-color: #A8D0DB;
+  margin:100px;
+  padding-left:100px;
+}
+
+#purple {
+  background-color: #414073;
+  padding-left:100px;
+  padding-bottom:100px;
+  margin-left:100px;
+  margin-bottom:50px;
+}
